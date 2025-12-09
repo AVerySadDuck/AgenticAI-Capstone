@@ -1,0 +1,12 @@
+= AgenticAI-Capstone
+
+
+image::images/repo.jpg[align=center]
+
+== About
+
+=== Basic Ticketing System Agent Demonstration
+
+=== Usage
+
+
