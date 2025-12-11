@@ -1,1 +1,2 @@
-Ai used to simplify Agent Prompts so not too much information going on
+AI used to simplify Agent Prompts so not too much information going on
+Would have been cool for testing to make automatic customers and responses in a round robin until it was resolved
