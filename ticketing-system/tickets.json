@@ -201,18 +201,6 @@
       "status": "open"
     },
     {
-      "id": "fd00549c-3125-4cba-9c46-efc1844a2201",
-      "created_at": "2025-12-11T20:04:13.307Z",
-      "customer_name": "John Doe",
-      "customer_email": "johndoe@example.com",
-      "subject": "Bean Machine Malfunction",
-      "serial_number": "",
-      "description": "The Bean Machine is not dispensing coffee. The robot arm seems to be stuck in the initial position.",
-      "category": "",
-      "priority": "",
-      "status": "open"
-    },
-    {
       "id": "d1f411c4-e0bc-4545-88c9-44b3a7031dbe",
       "created_at": "2025-12-11T20:05:08.947Z",
       "customer_name": "John Doe",
@@ -501,6 +489,20 @@
       "author": "Support Agent",
       "message": "We have acknowledged the escalation of your ticket and are prioritizing its resolution. Thank you for your patience.",
       "created_at": "2025-12-11T21:53:43.348Z"
+    },
+    {
+      "id": "c3323788-bb0b-40b0-bf42-0f667aae48e3",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "Thank you for the response!",
+      "created_at": "2025-12-11T21:54:38.963Z"
+    },
+    {
+      "id": "fbc93771-f2d3-4aaa-a1a5-2a818d6055eb",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "Support Agent",
+      "message": "We acknowledge the escalation of your issue. Our technical team is actively working on it and will provide updates as soon as possible. Thank you for your patience.",
+      "created_at": "2025-12-11T21:55:47.173Z"
     }
   ]
 }
