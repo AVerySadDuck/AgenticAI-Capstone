@@ -495,6 +495,130 @@ app.post('/api/tickets/:ticket_id/respond', async (req, res) => {
 
 /**
  * @swagger
+ * /api/tickets/{ticket_id}/category:
+ *   post:
+ *     summary: Update the category of a ticket
+ *     parameters:
+ *       - in: path
+ *         name: ticket_id
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: Ticket ID
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               category:
+ *                 type: string
+ *                 enum: [Mechanical, Quality, Maintenance, Technical, Awaiting Details]
+ *     responses:
+ *       200:
+ *         description: Ticket category updated
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Ticket'
+ *       400:
+ *         description: Invalid category
+ *       404:
+ *         description: Ticket not found
+ */
+app.post('/api/tickets/:ticket_id/category', async (req, res) => {
+
+  await db.read();
+
+  const ticket = db.data.tickets.find(t => t.id === req.params.ticket_id);
+  if (!ticket) return res.status(404).json({ error: 'Ticket not found' });
+
+  const allowedCategories = [
+    'Mechanical',
+    'Quality',
+    'Maintenance',
+    'Technical',
+    'Awaiting Details'
+  ];
+
+  const { category } = req.body;
+
+  if (!category || !allowedCategories.includes(category)) {
+    return res.status(400).json({ error: 'Invalid or missing category.' });
+  }
+
+  ticket.category = category;
+
+  await db.write();
+
+  notifyTicketUpdate(ticket.id, 'category');
+
+  res.json(ticket);
+});
+
+
+/**
+ * @swagger
+ * /api/tickets/{ticket_id}/priority:
+ *   post:
+ *     summary: Update the priority of a ticket
+ *     parameters:
+ *       - in: path
+ *         name: ticket_id
+ *         schema:
+ *           type: string
+ *         required: true
+ *         description: Ticket ID
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               priority:
+ *                 type: string
+ *                 enum: [High, Medium, Low]
+ *     responses:
+ *       200:
+ *         description: Ticket priority updated
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Ticket'
+ *       400:
+ *         description: Invalid priority
+ *       404:
+ *         description: Ticket not found
+ */
+app.post('/api/tickets/:ticket_id/priority', async (req, res) => {
+
+  await db.read();
+
+  const ticket = db.data.tickets.find(t => t.id === req.params.ticket_id);
+  if (!ticket) return res.status(404).json({ error: 'Ticket not found' });
+
+  const allowedPriorities = ['High', 'Medium', 'Low'];
+
+  const { priority } = req.body;
+
+  if (!priority || !allowedPriorities.includes(priority)) {
+    return res.status(400).json({ error: 'Invalid or missing priority.' });
+  }
+
+  ticket.priority = priority;
+
+  await db.write();
+
+  notifyTicketUpdate(ticket.id, 'priority');
+
+  res.json(ticket);
+});
+
+
+/**
+ * @swagger
  * /api/tickets/{ticket_id}/status:
  *   post:
  *     summary: Update the status of a ticket
