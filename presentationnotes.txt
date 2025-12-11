@@ -1,0 +1,27 @@
+
+Actions:
+
+- Categorizing Ticket
+- Setting Ticket priority
+- Check if escalation is needed
+- Checks for ticket updates
+- Automatic Responses
+
+Ticket Categories:
+
+- Mechanical
+- Quality
+- Maintenance 
+- Technical
+- Awaiting Details
+
+Ticket  Priorities
+
+- High 
+- Medium
+- Low (Awaiting details is always low)
+
+Ticket Escalations
+
+- Escalated (if priority is high or request is urgent, mark escalated)
+

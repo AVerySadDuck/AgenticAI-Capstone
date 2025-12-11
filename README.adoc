@@ -5,6 +5,12 @@ image::images/repo.jpg[align=center]
 
 == About
 
+* Uses websockets to connect to a ticketing system
+* Retreieving and processing the OpenAI specification
+* Simple agent that can interact with the the ticketing sytstem
+* Imports the support information into a chroma vector store 
+
+
 === Basic Ticketing System Agent Demonstration
 
 === Usage
