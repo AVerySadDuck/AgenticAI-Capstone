@@ -358,6 +358,27 @@
       "author": "Please",
       "message": "I am responding",
       "created_at": "2025-12-11T14:51:51.746Z"
+    },
+    {
+      "id": "9127444c-ca40-48ff-8a68-1bea5b118ac0",
+      "ticket_id": "e82f088a-3042-402a-94dc-6ccf41c2814f",
+      "author": "Jim",
+      "message": "I still need help",
+      "created_at": "2025-12-11T15:03:37.255Z"
+    },
+    {
+      "id": "a32d8ecf-18b3-4143-9f26-08a93af88eec",
+      "ticket_id": "e82f088a-3042-402a-94dc-6ccf41c2814f",
+      "author": "Jim",
+      "message": "I still need help please",
+      "created_at": "2025-12-11T15:05:31.084Z"
+    },
+    {
+      "id": "38c84b31-78bc-48b3-8b42-9f1fe6b03b5e",
+      "ticket_id": "e82f088a-3042-402a-94dc-6ccf41c2814f",
+      "author": "Support Agent",
+      "message": "Hi",
+      "created_at": "2025-12-11T15:05:45.536Z"
     }
   ]
 }
