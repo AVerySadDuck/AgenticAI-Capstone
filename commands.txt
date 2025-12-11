@@ -1,0 +1,2 @@
+cd ~/SageMaker/GAI-3101-CAP/AgenticAI-Capstone/
+cd ~/SageMaker/GAI-3101-CAP/AgenticAI-Capstone/ticketing-system/

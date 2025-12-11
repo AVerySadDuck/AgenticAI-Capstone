@@ -69,102 +69,6 @@
       "status": "open"
     },
     {
-      "id": "3a1f8ce7-b0d6-459d-aa44-c7198841a419",
-      "created_at": "2025-12-09T19:37:57.704Z",
-      "customer_name": "Jimmy John",
-      "customer_email": "john_jim@fake.com",
-      "subject": "Beams are too warm",
-      "serial_number": "",
-      "description": "Why are they so warm?",
-      "category": "Technical",
-      "priority": "",
-      "status": "open"
-    },
-    {
-      "id": "0312be73-db7c-4e57-b179-5e301a3f1def",
-      "created_at": "2025-12-10T15:49:56.974Z",
-      "customer_name": "John",
-      "customer_email": "John@john.com",
-      "subject": "Help",
-      "serial_number": "",
-      "description": "What is wrong?",
-      "category": "Technical Support",
-      "priority": "High",
-      "status": "open"
-    },
-    {
-      "id": "7f41a7d5-33fd-4be6-9d93-729da66e65e7",
-      "created_at": "2025-12-10T15:52:07.707Z",
-      "customer_name": "Bob",
-      "customer_email": "help@please.com",
-      "subject": "Help",
-      "serial_number": "",
-      "description": "Can you help!?",
-      "category": "general",
-      "priority": "Medium",
-      "status": "open"
-    },
-    {
-      "id": "7842e989-0261-460b-9d39-bf4d9e18da2b",
-      "created_at": "2025-12-10T16:25:14.768Z",
-      "customer_name": "eee",
-      "customer_email": "e@e.com",
-      "subject": "Ee",
-      "serial_number": "",
-      "description": "Help",
-      "category": "",
-      "priority": "",
-      "status": "open"
-    },
-    {
-      "id": "5593ae1e-2014-4a5f-8761-4cfd8eb14671",
-      "created_at": "2025-12-10T16:29:08.920Z",
-      "customer_name": "Bob",
-      "customer_email": "Help@bob.com",
-      "subject": "Help",
-      "serial_number": "",
-      "description": "please!",
-      "category": "Awaiting Details",
-      "priority": "Low",
-      "status": "open"
-    },
-    {
-      "id": "adbe0865-5c00-4afd-a966-53409697df66",
-      "created_at": "2025-12-10T16:53:05.847Z",
-      "customer_name": "Robert Robertson",
-      "customer_email": "robert@robert.com",
-      "subject": "Urgent! Machine won't turn off!",
-      "serial_number": "",
-      "description": "Please help, I tried unplugging it but it's still going. It's so loud!",
-      "category": "Awaiting Details",
-      "priority": "Low",
-      "status": "open"
-    },
-    {
-      "id": "22a74a42-8b6f-44b7-a008-3048562f8a90",
-      "created_at": "2025-12-10T16:57:41.392Z",
-      "customer_name": "Jon",
-      "customer_email": "Jon@jon.com",
-      "subject": "Urgent! Machine won't turn off!",
-      "serial_number": "",
-      "description": "Please help this is very urgent, how do I turn it off? It is making so much noise!",
-      "category": "Mechanical",
-      "priority": "High",
-      "status": "open"
-    },
-    {
-      "id": "2cf77c47-5b38-42f5-a0fc-a2d698583055",
-      "created_at": "2025-12-10T17:06:54.309Z",
-      "customer_name": "Bob",
-      "customer_email": "bob@com.com",
-      "subject": "URGENT! Machine won't turn off!",
-      "serial_number": "",
-      "description": "PLease help it is still going and very loud, need immediate help! How can I turn it off!",
-      "category": "Awaiting Details",
-      "priority": "Low",
-      "status": "open"
-    },
-    {
       "id": "61f44ec5-b77e-4069-8906-5cd09023d077",
       "created_at": "2025-12-10T17:09:54.709Z",
       "customer_name": "Robert",
@@ -177,52 +81,16 @@
       "status": "escalated"
     },
     {
-      "id": "3b07931d-183a-4032-9500-fb5d04cdb20d",
-      "created_at": "2025-12-10T19:29:54.949Z",
-      "customer_name": "Jim",
-      "customer_email": "Jimbo@jim.com",
-      "subject": "Urgent help required!",
+      "id": "ab4cdd2f-6cad-4e3a-af5e-4df6a272c15d",
+      "created_at": "2025-12-11T16:24:39.597Z",
+      "customer_name": "John Doe",
+      "customer_email": "johndoe@example.com",
+      "subject": "Issue with Bean Machine",
       "serial_number": "",
-      "description": "Please, my machine won't stop running and it's driving me crazy, can you get someone to help me turn it off? Urgent?",
-      "category": "",
-      "priority": "",
-      "status": "open"
-    },
-    {
-      "id": "e82f088a-3042-402a-94dc-6ccf41c2814f",
-      "created_at": "2025-12-10T19:30:42.901Z",
-      "customer_name": "Jim",
-      "customer_email": "Jim@three.com",
-      "subject": "Urgent help required!",
-      "serial_number": "",
-      "description": "Please help my machine won't turn off, I really need help please",
-      "category": "Mechanical",
-      "priority": "High",
-      "status": "open"
-    },
-    {
-      "id": "a19b4806-6e35-4a2a-8008-84a69ef63426",
-      "created_at": "2025-12-10T19:33:46.542Z",
-      "customer_name": "Please",
-      "customer_email": "Help@me.com",
-      "subject": "Super urgent help required!",
-      "serial_number": "",
-      "description": "Pleaes ghelp the machine won't turn off! I need to know how to turn it off please help",
-      "category": "Mechanical",
-      "priority": "High",
-      "status": "escalated"
-    },
-    {
-      "id": "ecf0defd-fa56-45b5-8c40-770fe12eb84a",
-      "created_at": "2025-12-11T14:52:27.312Z",
-      "customer_name": "B",
-      "customer_email": "B@b.com",
-      "subject": "B",
-      "serial_number": "",
-      "description": "B",
-      "category": "",
-      "priority": "",
-      "status": "open"
+      "description": "The Bean Machine is not dispensing the correct amount of coffee. It seems to be malfunctioning and needs immediate attention.",
+      "category": "Machine Malfunction",
+      "priority": "high",
+      "status": "in progress"
     }
   ],
   "responses": [
@@ -311,74 +179,11 @@
       "created_at": "2025-12-09T22:17:26.743Z"
     },
     {
-      "id": "1549e525-1fa0-4487-af1b-8adcbbff946b",
-      "ticket_id": "7f41a7d5-33fd-4be6-9d93-729da66e65e7",
-      "author": "Support Agent",
-      "message": "Hi Bob, thank you for reaching out! Could you please provide more details about the issue you're experiencing? This will help us assist you more effectively. Looking forward to your response!",
-      "created_at": "2025-12-10T15:53:04.625Z"
-    },
-    {
-      "id": "79f6f2da-af63-4479-8187-c1e49c8ae880",
-      "ticket_id": "5593ae1e-2014-4a5f-8761-4cfd8eb14671",
-      "author": "Support Agent",
-      "message": "Could you please provide more details regarding your issue? This will help us assist you better. Thank you!",
-      "created_at": "2025-12-10T16:29:44.476Z"
-    },
-    {
-      "id": "1c5ae395-640d-4423-8639-27bc579a1688",
-      "ticket_id": "adbe0865-5c00-4afd-a966-53409697df66",
-      "author": "Support Agent",
-      "message": "Please provide more details to proceed with your request.",
-      "created_at": "2025-12-10T16:53:47.219Z"
-    },
-    {
-      "id": "9f69f9f8-8236-4c43-ae11-88d350ef3bd9",
-      "ticket_id": "2cf77c47-5b38-42f5-a0fc-a2d698583055",
-      "author": "Support Agent",
-      "message": "We need more details to proceed with your request. Please provide the necessary information.",
-      "created_at": "2025-12-10T17:08:03.054Z"
-    },
-    {
       "id": "b68d93ff-a3dc-4200-9fc3-76d635399ee1",
       "ticket_id": "61f44ec5-b77e-4069-8906-5cd09023d077",
       "author": "Support Team",
       "message": "This ticket has been escalated due to its high priority. Our team is looking into it immediately.",
       "created_at": "2025-12-10T17:10:56.027Z"
-    },
-    {
-      "id": "2b6af372-a043-4e6e-a079-dc45d9853f43",
-      "ticket_id": "a19b4806-6e35-4a2a-8008-84a69ef63426",
-      "author": "Automated System",
-      "message": "Your ticket has been escalated to the highest priority. Our team is working on it and will get back to you shortly.",
-      "created_at": "2025-12-10T19:35:55.158Z"
-    },
-    {
-      "id": "dd328998-04ee-4897-be1e-260117975765",
-      "ticket_id": "a19b4806-6e35-4a2a-8008-84a69ef63426",
-      "author": "Please",
-      "message": "I am responding",
-      "created_at": "2025-12-11T14:51:51.746Z"
-    },
-    {
-      "id": "9127444c-ca40-48ff-8a68-1bea5b118ac0",
-      "ticket_id": "e82f088a-3042-402a-94dc-6ccf41c2814f",
-      "author": "Jim",
-      "message": "I still need help",
-      "created_at": "2025-12-11T15:03:37.255Z"
-    },
-    {
-      "id": "a32d8ecf-18b3-4143-9f26-08a93af88eec",
-      "ticket_id": "e82f088a-3042-402a-94dc-6ccf41c2814f",
-      "author": "Jim",
-      "message": "I still need help please",
-      "created_at": "2025-12-11T15:05:31.084Z"
-    },
-    {
-      "id": "38c84b31-78bc-48b3-8b42-9f1fe6b03b5e",
-      "ticket_id": "e82f088a-3042-402a-94dc-6ccf41c2814f",
-      "author": "Support Agent",
-      "message": "Hi",
-      "created_at": "2025-12-11T15:05:45.536Z"
     }
   ]
 }
