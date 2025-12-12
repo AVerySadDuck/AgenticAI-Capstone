@@ -93,102 +93,6 @@
       "status": "in progress"
     },
     {
-      "id": "2354ec56-c331-4d3a-8c0a-29ead7bc97c3",
-      "created_at": "2025-12-11T19:03:25.988Z",
-      "customer_name": "John Doe",
-      "customer_email": "john.doe@example.com",
-      "subject": "Issue with equipment",
-      "serial_number": "",
-      "description": "The equipment is not functioning as expected.",
-      "category": "Mechanical",
-      "priority": "",
-      "status": "open"
-    },
-    {
-      "id": "edd8e4e2-9a1b-49cd-9b31-4526f34fc9d4",
-      "created_at": "2025-12-11T19:18:33.869Z",
-      "customer_name": "John Doe",
-      "customer_email": "johndoe@example.com",
-      "subject": "Bean Machine Malfunction",
-      "serial_number": "",
-      "description": "The Bean Machine is not dispensing coffee. It seems to be stuck in the brewing cycle.",
-      "category": "",
-      "priority": "",
-      "status": "open"
-    },
-    {
-      "id": "86dd6439-19f7-4a70-8f79-3727453e1888",
-      "created_at": "2025-12-11T19:24:50.856Z",
-      "customer_name": "John Doe",
-      "customer_email": "john.doe@example.com",
-      "subject": "Issue with product",
-      "serial_number": "",
-      "description": "The product is not functioning as expected.",
-      "category": "",
-      "priority": "",
-      "status": "open"
-    },
-    {
-      "id": "b2e79e17-0faf-4092-b382-20d9f82c5a3d",
-      "created_at": "2025-12-11T19:27:15.533Z",
-      "customer_name": "John Doe",
-      "customer_email": "john.doe@example.com",
-      "subject": "Issue with Product",
-      "serial_number": "",
-      "description": "The product is not functioning as expected.",
-      "category": "",
-      "priority": "",
-      "status": "open"
-    },
-    {
-      "id": "e9998a6c-cb97-4897-a9d4-db7bf34ad9db",
-      "created_at": "2025-12-11T19:38:50.831Z",
-      "customer_name": "John Doe",
-      "customer_email": "johndoe@example.com",
-      "subject": "Bean Machine Malfunction",
-      "serial_number": "",
-      "description": "The Bean Machine is not dispensing coffee. The robot arm seems to be stuck in the initial position.",
-      "category": "",
-      "priority": "",
-      "status": "open"
-    },
-    {
-      "id": "cdb9c751-1660-4a89-b725-e39900434113",
-      "created_at": "2025-12-11T19:40:50.234Z",
-      "customer_name": "John Doe",
-      "customer_email": "johndoe@example.com",
-      "subject": "Bean Machine Malfunction",
-      "serial_number": "",
-      "description": "The Bean Machine is not dispensing coffee. The robot arm seems to be stuck in the initial position.",
-      "category": "",
-      "priority": "Low",
-      "status": "open"
-    },
-    {
-      "id": "ed2f1da8-5dc3-453b-864c-55c1f35732ff",
-      "created_at": "2025-12-11T19:55:50.225Z",
-      "customer_name": "John Doe",
-      "customer_email": "johndoe@example.com",
-      "subject": "Bean Machine Malfunction",
-      "serial_number": "",
-      "description": "The Bean Machine is not dispensing coffee. The robot arm seems to be stuck in the initial position.",
-      "category": "Awaiting Details",
-      "priority": "Medium",
-      "status": "open"
-    },
-    {
-      "id": "c7b03e37-b692-4c4c-be01-43720bda1b78",
-      "created_at": "2025-12-11T20:00:53.949Z",
-      "customer_name": "John Doe",
-      "customer_email": "johndoe@example.com",
-      "subject": "Bean Machine Malfunction",
-      "serial_number": "",
-      "description": "The Bean Machine is not dispensing coffee. The robot arm seems to be stuck in the initial position.",
-      "category": "Mechanical",
-      "priority": "",
-      "status": "open"
-    },
-    {
       "id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
       "created_at": "2025-12-11T20:02:04.165Z",
       "customer_name": "John Doe",
@@ -225,13 +129,25 @@
       "status": "escalated"
     },
     {
-      "id": "2df0a448-2509-4329-9fe3-3d85a20d79b7",
-      "created_at": "2025-12-11T21:49:48.395Z",
-      "customer_name": "John Doe",
-      "customer_email": "johndoe@example.com",
-      "subject": "Bean Machine Malfunction",
+      "id": "4a0fed29-1ccb-44dc-9260-57e57007d03c",
+      "created_at": "2025-12-12T15:02:13.909Z",
+      "customer_name": "Jim",
+      "customer_email": "jim@bob.com",
+      "subject": "Help!",
       "serial_number": "",
-      "description": "The Bean Machine is not dispensing coffee. The robot arm seems to be stuck in the initial position.",
+      "description": "Please help me!",
+      "category": "Awaiting Details",
+      "priority": "Low",
+      "status": "open"
+    },
+    {
+      "id": "02d4f6ed-0dec-4576-997f-c43c0de2ab4c",
+      "created_at": "2025-12-12T15:38:51.855Z",
+      "customer_name": "Bob",
+      "customer_email": "bob@bob.com",
+      "subject": "Urgent! Machine won't turn off!",
+      "serial_number": "",
+      "description": "Please help me I can't turn the machine off what do I do?!?! ",
       "category": "Technical",
       "priority": "High",
       "status": "escalated"
@@ -328,13 +244,6 @@
       "author": "Support Team",
       "message": "This ticket has been escalated due to its high priority. Our team is looking into it immediately.",
       "created_at": "2025-12-10T17:10:56.027Z"
-    },
-    {
-      "id": "d4b26a32-fb62-43be-bd53-e40edcf5e810",
-      "ticket_id": "ed2f1da8-5dc3-453b-864c-55c1f35732ff",
-      "author": "Support Agent",
-      "message": "Hello John Doe, we need more information to assist you with the Bean Machine malfunction. Could you please provide details on any error messages displayed or any unusual sounds from the machine? Thank you!",
-      "created_at": "2025-12-11T19:56:53.859Z"
     },
     {
       "id": "ce1747cb-26be-464a-9c6c-41cdcbdef7fd",
@@ -477,20 +386,6 @@
       "created_at": "2025-12-11T21:48:40.481Z"
     },
     {
-      "id": "e4c9e854-76b7-4492-8214-3d03deed5196",
-      "ticket_id": "2df0a448-2509-4329-9fe3-3d85a20d79b7",
-      "author": "John",
-      "message": "Please escalate this is very urgent!",
-      "created_at": "2025-12-11T21:53:16.375Z"
-    },
-    {
-      "id": "cbbb876f-0648-4c4e-b532-62e15c143e3b",
-      "ticket_id": "2df0a448-2509-4329-9fe3-3d85a20d79b7",
-      "author": "Support Agent",
-      "message": "We have acknowledged the escalation of your ticket and are prioritizing its resolution. Thank you for your patience.",
-      "created_at": "2025-12-11T21:53:43.348Z"
-    },
-    {
       "id": "c3323788-bb0b-40b0-bf42-0f667aae48e3",
       "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
       "author": "John",
@@ -503,6 +398,34 @@
       "author": "Support Agent",
       "message": "We acknowledge the escalation of your issue. Our technical team is actively working on it and will provide updates as soon as possible. Thank you for your patience.",
       "created_at": "2025-12-11T21:55:47.173Z"
+    },
+    {
+      "id": "5f1eb93b-d8e8-459e-b50e-09005c5e1420",
+      "ticket_id": "4a0fed29-1ccb-44dc-9260-57e57007d03c",
+      "author": "Support Agent",
+      "message": "Hello! We are currently awaiting further details from you to proceed with your request. Please provide the necessary information at your earliest convenience. Thank you!",
+      "created_at": "2025-12-12T15:03:02.511Z"
+    },
+    {
+      "id": "ae8472fd-0fdd-46e6-800a-7790fe91a5a9",
+      "ticket_id": "02d4f6ed-0dec-4576-997f-c43c0de2ab4c",
+      "author": "Support Agent",
+      "message": "Hello Bob, to turn off the machine, please press and hold the power button for 10 seconds. If the issue persists, unplug the machine from the power source. Let us know if you need further assistance.",
+      "created_at": "2025-12-12T15:39:37.132Z"
+    },
+    {
+      "id": "938961c4-5d91-4b39-a5b9-c96026a79fe9",
+      "ticket_id": "02d4f6ed-0dec-4576-997f-c43c0de2ab4c",
+      "author": "Bob",
+      "message": "Hi it's Bob again, the machine won't turn off still. And it's now on fire. Can I get escalated help?",
+      "created_at": "2025-12-12T15:57:48.501Z"
+    },
+    {
+      "id": "7af6107b-001a-4302-baa6-bbce50380a99",
+      "ticket_id": "02d4f6ed-0dec-4576-997f-c43c0de2ab4c",
+      "author": "Support Agent",
+      "message": "Hi Bob, we understand the urgency of your situation. We are escalating this issue to our emergency response team for immediate assistance. Please ensure your safety and move away from the machine. We will update you shortly.",
+      "created_at": "2025-12-12T15:58:39.162Z"
     }
   ]
 }

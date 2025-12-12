@@ -1,2 +1,8 @@
 AI used to simplify Agent Prompts so not too much information going on
-Would have been cool for testing to make automatic customers and responses in a round robin until it was resolved
+Tried to use AI to get better endpoints, context and memory but I spent about 3 hours and things just got more broken so I decided to stick with a Minimal Viable Product Proof of Concept
+Would have been cool for testing to make automatic customers and responses in a round robin until it was resolved to test the full scope of things
+
+What would I do next?!?!
+Make the website update when details change, tried to mess around with the code but AI just kept breaking it
+Cleaned up the code, better integrate things, do better code practices
+Live updates for code on website, better endpoints, add the serial number stff

@@ -52,7 +52,7 @@
       "subject": "Beans are too cold",
       "serial_number": "",
       "description": "Why did you send me cold beans?",
-      "category": "",
+      "category": "Quality",
       "priority": "",
       "status": "open"
     },
@@ -64,21 +64,93 @@
       "subject": "Beans are too hot",
       "serial_number": "",
       "description": "Why are the beans so hot?",
-      "category": "",
+      "category": "Quality",
       "priority": "",
       "status": "open"
     },
     {
-      "id": "3a1f8ce7-b0d6-459d-aa44-c7198841a419",
-      "created_at": "2025-12-09T19:37:57.704Z",
-      "customer_name": "Jimmy John",
-      "customer_email": "john_jim@fake.com",
-      "subject": "Beams are too warm",
+      "id": "61f44ec5-b77e-4069-8906-5cd09023d077",
+      "created_at": "2025-12-10T17:09:54.709Z",
+      "customer_name": "Robert",
+      "customer_email": "bob@bob.com",
+      "subject": "URGENT! Machine won't turn off!",
       "serial_number": "",
-      "description": "Why are they so warm?",
+      "description": "Please help this machine won't turn off I don't now what to do I need immediate help!",
+      "category": "Mechanical",
+      "priority": "High",
+      "status": "escalated"
+    },
+    {
+      "id": "ab4cdd2f-6cad-4e3a-af5e-4df6a272c15d",
+      "created_at": "2025-12-11T16:24:39.597Z",
+      "customer_name": "John Doe",
+      "customer_email": "johndoe@example.com",
+      "subject": "Issue with Bean Machine",
+      "serial_number": "",
+      "description": "The Bean Machine is not dispensing the correct amount of coffee. It seems to be malfunctioning and needs immediate attention.",
+      "category": "Machine Malfunction",
+      "priority": "high",
+      "status": "in progress"
+    },
+    {
+      "id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "created_at": "2025-12-11T20:02:04.165Z",
+      "customer_name": "John Doe",
+      "customer_email": "johndoe@example.com",
+      "subject": "Bean Machine Malfunction",
+      "serial_number": "",
+      "description": "The Bean Machine is not dispensing coffee. The robot arm seems to be stuck in the initial position.",
       "category": "Technical",
-      "priority": "",
+      "priority": "High",
       "status": "open"
+    },
+    {
+      "id": "d1f411c4-e0bc-4545-88c9-44b3a7031dbe",
+      "created_at": "2025-12-11T20:05:08.947Z",
+      "customer_name": "John Doe",
+      "customer_email": "johndoe@example.com",
+      "subject": "Bean Machine Malfunction",
+      "serial_number": "",
+      "description": "The Bean Machine is not dispensing coffee. The robot arm seems to be stuck in the initial position.",
+      "category": "Mechanical",
+      "priority": "High",
+      "status": "in progress"
+    },
+    {
+      "id": "49991205-feaf-48c8-8ce3-bfbeefaa58bf",
+      "created_at": "2025-12-11T20:31:54.523Z",
+      "customer_name": "John Doe",
+      "customer_email": "johndoe@example.com",
+      "subject": "Bean Machine Malfunction",
+      "serial_number": "",
+      "description": "The Bean Machine is not dispensing coffee. The robot arm seems to be stuck in the initial position.",
+      "category": "Technical",
+      "priority": "High",
+      "status": "escalated"
+    },
+    {
+      "id": "4a0fed29-1ccb-44dc-9260-57e57007d03c",
+      "created_at": "2025-12-12T15:02:13.909Z",
+      "customer_name": "Jim",
+      "customer_email": "jim@bob.com",
+      "subject": "Help!",
+      "serial_number": "",
+      "description": "Please help me!",
+      "category": "Awaiting Details",
+      "priority": "Low",
+      "status": "open"
+    },
+    {
+      "id": "02d4f6ed-0dec-4576-997f-c43c0de2ab4c",
+      "created_at": "2025-12-12T15:38:51.855Z",
+      "customer_name": "Bob",
+      "customer_email": "bob@bob.com",
+      "subject": "Urgent! Machine won't turn off!",
+      "serial_number": "",
+      "description": "Please help me I can't turn the machine off what do I do?!?! ",
+      "category": "Technical",
+      "priority": "High",
+      "status": "in progress"
     }
   ],
   "responses": [
@@ -158,6 +230,188 @@
       "author": "Ben",
       "message": "Uh oh, lets cool it down!",
       "created_at": "2025-12-09T19:32:41.058Z"
+    },
+    {
+      "id": "37742ee1-3982-4186-8ac5-dc62336a2ab9",
+      "ticket_id": "1a2b3c4d-0002-0000-0000-000000000002",
+      "author": "Bob Lee",
+      "message": "Yes, but the are bad still",
+      "created_at": "2025-12-09T22:17:26.743Z"
+    },
+    {
+      "id": "b68d93ff-a3dc-4200-9fc3-76d635399ee1",
+      "ticket_id": "61f44ec5-b77e-4069-8906-5cd09023d077",
+      "author": "Support Team",
+      "message": "This ticket has been escalated due to its high priority. Our team is looking into it immediately.",
+      "created_at": "2025-12-10T17:10:56.027Z"
+    },
+    {
+      "id": "ce1747cb-26be-464a-9c6c-41cdcbdef7fd",
+      "ticket_id": "49991205-feaf-48c8-8ce3-bfbeefaa58bf",
+      "author": "Support Agent",
+      "message": "We have noted the escalation of your ticket regarding the Bean Machine malfunction. Our technical team is prioritizing this issue and will provide updates shortly. Thank you for your patience.",
+      "created_at": "2025-12-11T20:33:16.509Z"
+    },
+    {
+      "id": "00c5fb0b-de69-4b1e-8112-77d3ddfcd354",
+      "ticket_id": "d1f411c4-e0bc-4545-88c9-44b3a7031dbe",
+      "author": "John",
+      "message": "Hi, how are you?",
+      "created_at": "2025-12-11T20:44:38.449Z"
+    },
+    {
+      "id": "e7458a11-8857-4c31-83ad-7bdd985d5431",
+      "ticket_id": "d1f411c4-e0bc-4545-88c9-44b3a7031dbe",
+      "author": "John",
+      "message": "Hello, how is it going?",
+      "created_at": "2025-12-11T20:46:23.602Z"
+    },
+    {
+      "id": "ab2db6e1-c858-44ff-a822-6d03bff9fcb4",
+      "ticket_id": "d1f411c4-e0bc-4545-88c9-44b3a7031dbe",
+      "author": "John",
+      "message": "Hi how are you!",
+      "created_at": "2025-12-11T20:47:26.390Z"
+    },
+    {
+      "id": "ef7ec429-192b-4d42-932a-df2ab19c89a1",
+      "ticket_id": "d1f411c4-e0bc-4545-88c9-44b3a7031dbe",
+      "author": "Support Agent",
+      "message": "Thank you for reaching out. We are looking into the issue with the Bean Machine and will get back to you shortly.",
+      "created_at": "2025-12-11T20:47:40.371Z"
+    },
+    {
+      "id": "6764ecc7-29b3-4e40-919a-eaede1ebbf29",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "PLEASE HELP THIS IS URGENT I CAN'T GET IT WORKING TOO MANY PROBLEMS HELP",
+      "created_at": "2025-12-11T20:49:24.872Z"
+    },
+    {
+      "id": "002cb39c-afc6-49ce-af4e-a903ba9bccf2",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "Support Agent",
+      "message": "Hello John, we understand the urgency of your issue and are here to help. Our team is looking into it and will get back to you shortly.",
+      "created_at": "2025-12-11T20:49:42.540Z"
+    },
+    {
+      "id": "754259ce-d625-4e33-8ef8-125f297e3551",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "This is very urgent I need help right away please can you escalate this?",
+      "created_at": "2025-12-11T20:54:54.924Z"
+    },
+    {
+      "id": "0be6fc0a-421a-463b-9e51-ba2098d42e4f",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "This is very urgent I need help right away please can you escalate this?",
+      "created_at": "2025-12-11T20:55:44.417Z"
+    },
+    {
+      "id": "ccb2c6ad-3fb7-412b-aa41-8c9049769053",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "Support Agent",
+      "message": "Hi John, we understand the urgency and have escalated your issue to our technical team. They are working on it and will provide an update shortly. Thank you for your patience.",
+      "created_at": "2025-12-11T20:56:03.793Z"
+    },
+    {
+      "id": "9f32b55c-3d5b-4f10-ba3e-aa49c8729a07",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "This is very urgent I need help right away please can you escalate this?",
+      "created_at": "2025-12-11T20:58:55.093Z"
+    },
+    {
+      "id": "efb5aad3-fd2a-4a6a-8dac-ab371a3aecb7",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "Support Agent",
+      "message": "Hi John, we understand the urgency and have escalated your issue to our technical team. They are working on it and will provide an update shortly. Thank you for your patience.",
+      "created_at": "2025-12-11T20:59:20.274Z"
+    },
+    {
+      "id": "450cd328-8705-444c-99bf-619417f34b1f",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "This is very urgent I need help right away please can you escalate this?",
+      "created_at": "2025-12-11T21:34:23.434Z"
+    },
+    {
+      "id": "75cbbd84-e57a-4a9a-91fa-2e642d017bb1",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "Support Agent",
+      "message": "Hi John, thank you for reaching out. We understand the urgency of your issue and are here to assist you. Our technical team is currently investigating the problem with the Bean Machine. We will keep you updated on the progress. Thank you for your patience.",
+      "created_at": "2025-12-11T21:36:30.434Z"
+    },
+    {
+      "id": "05d4b76c-5673-402c-889a-70050ca7992a",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "This is very urgent I need help right away please can you escalate this?",
+      "created_at": "2025-12-11T21:37:12.381Z"
+    },
+    {
+      "id": "021b37ea-d18b-48a9-a17d-2d401d58a442",
+      "ticket_id": "d1f411c4-e0bc-4545-88c9-44b3a7031dbe",
+      "author": "John",
+      "message": "This is very urgent I need help right away please can you escalate this?",
+      "created_at": "2025-12-11T21:38:27.496Z"
+    },
+    {
+      "id": "5823296a-9274-4185-9d75-5ffd9038a99d",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "This is very urgent I need help right away please can you escalate this?",
+      "created_at": "2025-12-11T21:40:14.835Z"
+    },
+    {
+      "id": "9d7af250-f691-4934-979d-c0f382221197",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "This is very urgent I need help right away please can you escalate this?",
+      "created_at": "2025-12-11T21:43:06.217Z"
+    },
+    {
+      "id": "948a2e86-23df-492b-a288-318b2957a467",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "This is very urgent I need help right away please can you escalate this?",
+      "created_at": "2025-12-11T21:46:36.581Z"
+    },
+    {
+      "id": "d54181ae-95f8-4dbe-828e-b46810dba126",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "Support Agent",
+      "message": "Hi John, thank you for your patience. Our technical team is actively working on resolving the issue with the Bean Machine. We will keep you updated on the progress. Please let us know if there's anything else we can assist you with in the meantime.",
+      "created_at": "2025-12-11T21:48:40.481Z"
+    },
+    {
+      "id": "c3323788-bb0b-40b0-bf42-0f667aae48e3",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "John",
+      "message": "Thank you for the response!",
+      "created_at": "2025-12-11T21:54:38.963Z"
+    },
+    {
+      "id": "fbc93771-f2d3-4aaa-a1a5-2a818d6055eb",
+      "ticket_id": "8a6ec151-b0d7-428e-8527-27d5024285dd",
+      "author": "Support Agent",
+      "message": "We acknowledge the escalation of your issue. Our technical team is actively working on it and will provide updates as soon as possible. Thank you for your patience.",
+      "created_at": "2025-12-11T21:55:47.173Z"
+    },
+    {
+      "id": "5f1eb93b-d8e8-459e-b50e-09005c5e1420",
+      "ticket_id": "4a0fed29-1ccb-44dc-9260-57e57007d03c",
+      "author": "Support Agent",
+      "message": "Hello! We are currently awaiting further details from you to proceed with your request. Please provide the necessary information at your earliest convenience. Thank you!",
+      "created_at": "2025-12-12T15:03:02.511Z"
+    },
+    {
+      "id": "ae8472fd-0fdd-46e6-800a-7790fe91a5a9",
+      "ticket_id": "02d4f6ed-0dec-4576-997f-c43c0de2ab4c",
+      "author": "Support Agent",
+      "message": "Hello Bob, to turn off the machine, please press and hold the power button for 10 seconds. If the issue persists, unplug the machine from the power source. Let us know if you need further assistance.",
+      "created_at": "2025-12-12T15:39:37.132Z"
     }
   ]
 }
